@@ -1,0 +1,83 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.env
+.venv/
+venv/
+env/
+ENV/
+myenv/
+
+# Byte-compiled
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# -------------------------
+# Virtual Environments
+# -------------------------
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# -------------------------
+# IDE / Editor Stuff
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# -------------------------
+# Build Artifacts
+# -------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+htmlcov/
+cover/
+coverage.xml
+.cache/
+.tox/
+pytest_cache/
+.pytest_cache/
+
+# -------------------------
+# Local storage files
+# (FAISS, BM25, embeddings)
+# -------------------------
+index.faiss
+chunks.json
+bm25.json
+*.db
+*.sqlite
+*.pickle
+*.pkl
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+logs/
+log/
+
+# -------------------------
+# Docker
+# -------------------------
+*.bak
+*.tmp
+*.temp
+docker-compose.override.yml
+
+# -------------------------
+# Node (if fro

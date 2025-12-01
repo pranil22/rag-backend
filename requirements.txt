@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+pypdf
+sentence-transformers
+faiss-cpu
+langchain
+google-generativeai
+python-dotenv
+langchain
+langchain-community
+rank_bm25
